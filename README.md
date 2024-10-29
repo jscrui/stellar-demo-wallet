@@ -21,12 +21,12 @@ feel free to clone or copy any pieces that may be helpful.
 This application defaults to using Stellar's testnet.
 
 This application can be used on Stellar's mainnet by setting
-**HORIZON_PASSPHRASE** & **HORIZON_URL** on `window._env_` object (this project
+**NETWORK_PASSPHRASE** & **HORIZON_URL** on `window._env_` object (this project
 uses _packages/demo-wallet-client/public/settings/env-config.js_ file).
 
 ```typescript
 window._env_ = {
-  HORIZON_PASSPHRASE: "Public Global Stellar Network ; September 2015",
+  NETWORK_PASSPHRASE: "Public Global Stellar Network ; September 2015",
   HORIZON_URL: "https://horizon.stellar.org",
 };
 ```

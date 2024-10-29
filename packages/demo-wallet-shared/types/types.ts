@@ -8,7 +8,7 @@ declare global {
     _env_: {
       AMPLITUDE_API_KEY: string;
       SENTRY_API_KEY: string;
-      HORIZON_PASSPHRASE?: string;
+      NETWORK_PASSPHRASE?: string;
       HORIZON_URL?: string;
       WALLET_BACKEND_ENDPOINT?: string;
       CLIENT_DOMAIN?: string;
